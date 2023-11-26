@@ -39,7 +39,7 @@ class CustomPage {
         this.page = page;
     } 
 
-    async  login () {
+    async login () {
         const user = await userFactory();
         const { session, sig } = sessionFactory(user);
          
